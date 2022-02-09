@@ -1,0 +1,828 @@
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Baloo+Bhaijaan+2&family=Carrois+Gothic+SC&family=Comfortaa&family=Concert+One&family=Dosis:wght@300&family=Genos:wght@300&family=Kumbh+Sans:wght@100;300;400;600;800&family=Lato&family=Montserrat:wght@300&family=Open+Sans+Condensed:wght@700&family=Pacifico&family=Pathway+Gothic+One&family=Patrick+Hand&family=Permanent+Marker&family=Raleway:wght@100;400&family=Roboto+Condensed:wght@300;400&family=Roboto:wght@100;300&family=Special+Elite&family=Titillium+Web:wght@200&family=Ubuntu+Condensed&family=Voltaire&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+/* Scrollbar properties */
+
+::-webkit-scrollbar {
+  background-color: rgba(2, 2, 2, 0.9);
+  width: 0.8rem;
+}
+::-webkit-scrollbar:hover {
+  background-color: rgba(2, 2, 2, 0.9);
+  width: 0.9rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(30, 8, 129, 0.3);
+  border-radius: 0.3rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(30, 8, 129, 0.5);
+  border-radius: 0.3rem;
+}
+
+/* SECTION-1 Starts here */
+
+.section1 {
+  background: url("./images/bgg5.jpeg");
+  background: url("./images/bgg_fin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-blend-mode: multiply;
+}
+
+.section1 .navbar {
+  width: 95%;
+  height: 7.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.06rem solid rgba(145, 134, 129, 0.5);
+  padding-bottom: 1rem;
+  margin-left: 2.5rem;
+}
+
+.navbar .logo {
+  width: 6rem;
+  height: 4rem;
+  margin: 1rem;
+  margin-bottom: 0;
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.logo_d {
+  display: flex;
+  flex-direction: column;
+  color: antiquewhite;
+  align-items: center;
+  justify-content: left;
+  font-weight: bold;
+  font-size: 1.1rem;
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  opacity: 1;
+  color: wheat;
+}
+.logo_d span:first-child {
+  color: rgba(79, 229, 235, 0.8);
+  font-size: 1.45rem;
+  font-weight: bolder;
+}
+sup {
+  color: white;
+  margin: 0.3rem;
+  margin-bottom: 2rem;
+  font-size: 0.5rem;
+  opacity: 0.6;
+}
+.logo img {
+  width: 60%;
+  height: 80%;
+}
+
+.navbar .icons {
+  width: 25rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap:1rem; */
+  margin-top: 0.5rem;
+}
+
+.icons p {
+  color: rgba(247, 247, 247, 0.8);
+  font-size: 1.08rem;
+  width: 6.2rem;
+  height: 2.3rem;
+  font-family: "Raleway", sans-serif;
+  margin: 0.6rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+
+  text-align: center;
+}
+
+.icons .hire {
+  background-color: rgba(70, 70, 70, 0.4);
+  border: 0;
+  border-radius: 0.45rem;
+  color: whitesmoke;
+}
+
+.icons div {
+  width: 6rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.icons p:hover {
+  color: rgb(81, 226, 236);
+  font-size: 1.09rem;
+  transition: all 0.3s ease-in-out;
+}
+.icons .hire:hover {
+  color: white;
+
+  background-color: rgba(207, 4, 4, 0.6);
+  transition: all 0.4s ease-in-out;
+}
+
+.icons div img {
+  width: 54%;
+  height: 65%;
+  opacity: 0.6;
+}
+
+.section1 .section1_content {
+  display: flex;
+  color: white;
+  width: 95%;
+  height: calc(100% - 8rem);
+  flex-direction: column;
+  margin-left: 3rem;
+}
+
+.section1_content .item1 {
+  flex: 100%;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.item1 #it1 {
+  flex: 1;
+  width: 20rem;
+  height: 30rem;
+  font-size: 4rem;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0rem;
+  margin-top: 4rem;
+}
+
+#it1 span {
+  line-height: 3.8rem;
+}
+.item1 #it2 {
+  flex: 1;
+  width: 20rem;
+  height: 95%;
+  display: flex;
+  align-items: flex-end;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
+  color: rgb(161, 30, 7);
+  font-size: 1.3rem;
+  justify-content: flex-end;
+  flex-direction: column;
+  font-weight: normal;
+  align-content: flex-end;
+  gap: 0.6rem;
+  padding: 1rem 0.3rem;
+  flex: 100%;
+  width: 100%;
+}
+.item1 #it2 span {
+  padding-right: 0.5rem;
+}
+#it2 .ad_company,
+#it2 .email_company {
+  color: rgb(255, 195, 195);
+  font-size: 0.95rem;
+}
+
+/* END OF SECTION-1 */
+
+/* SECTION-2 starts here */
+
+.section2 {
+  background-color: black;
+  width: 100%;
+
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.section2 .c1 {
+  color: rgb(228, 209, 209);
+  flex: 1;
+  width: 10rem;
+  height: 30rem;
+  font-size: 4rem;
+  font-family: "Raleway", sans-serif;
+  margin: 2rem;
+  margin-top: 4rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 3rem;
+}
+
+.c1 span {
+  color: rgb(172, 9, 9);
+}
+
+.section2 .c2 {
+  flex: 2.2;
+  color: rgb(156, 150, 150);
+  font-size: 1.1rem;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  font-family: "Montserrat", sans-serif;
+  padding: 4rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.c2 h4 {
+  text-align: right;
+  color: rgba(180, 64, 43, 0.8);
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.c2 hr {
+  /* color:rgb(77, 77, 77); */
+  border: 0.02rem solid rgb(95, 70, 14);
+  width: 45%;
+  text-align: right;
+  margin-left: 55%;
+}
+
+.c2 p {
+  width: 35rem;
+  text-align: right;
+  margin-left: 20rem;
+  flex-wrap: wrap;
+}
+
+.c2 .i_ctn {
+  /* display:inline-block; */
+  width: 90%;
+  height: 4rem;
+}
+
+.i_ctn img {
+  width: 100%;
+  height: 95%;
+}
+
+/* SECTION-3 Starts -----------*/
+
+.section3 {
+  background-color: rgba(64, 153, 255, 0.68);
+  width: 100%;
+  height: 50rem;
+  height: auto;
+  display: flex;
+}
+
+.section3 .s3_item1 {
+  flex: 0.5;
+  background-color: black;
+  height: 100%;
+}
+
+.s3_item1 p {
+  font-size: 4rem;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+  margin: 7rem 0;
+  padding: 2.5rem;
+}
+
+.section3 .s3_item2 {
+  flex: 4;
+  height: 100%;
+  display: grid;
+  padding: 0 2rem;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.s3_item2 .de1 {
+  color: rgb(233, 227, 227);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: lighter;
+  padding: 3rem;
+  padding-left: 10rem;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: flex-start;
+}
+
+.de1 h4 {
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  margin-left: 10%;
+  width: 10rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.de1 hr {
+  /* color:rgb(77, 77, 77); */
+  border: 0.02rem solid rgb(5, 14, 17);
+  width: 45%;
+  text-align: right;
+  margin-left: 35%;
+}
+
+.de1 p {
+  width: 100%;
+  text-align: right;
+  flex-wrap: wrap;
+  font-family: "Kumbh Sans", sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  font-weight: normal;
+  color: rgb(223, 222, 222);
+  font-size: 1.15rem;
+  margin-left: 1rem;
+  line-break: 1rem;
+}
+
+.de2,
+.de3 {
+  display: flex;
+  align-items: center;
+}
+
+.de2 img,
+.de3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.s3_item2 .de4 {
+  color: rgb(233, 227, 227);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: lighter;
+  padding: 2rem;
+  padding-right: 8rem;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: flex-start;
+}
+
+.de4 h4 {
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  color: rgb(247, 243, 243);
+  margin-left: 10%;
+  width: 10rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.de4 hr {
+  /* color:rgb(77, 77, 77); */
+  border: 0.02rem solid rgb(5, 14, 17);
+  width: 45%;
+  text-align: right;
+  margin-left: 35%;
+}
+
+.de4 p {
+  width: 100%;
+  text-align: right;
+  flex-wrap: wrap;
+  font-family: "Kumbh Sans", sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  font-weight: normal;
+  color: rgb(223, 222, 222);
+  font-size: 1.15rem;
+  margin-left: 1rem;
+  line-break: 1rem;
+}
+
+/* Applying psedo properties on elements in Section 3*/
+
+.de1 h4::first-line,
+.de4 h4::first-line {
+  font-size: 2.7rem;
+}
+
+/* End of SECTION-3  */
+
+/* SECTION-4 Begins here */
+
+.section4 {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.section4 div {
+  flex: 100%;
+  padding: 1rem;
+}
+
+.section4 .it1 {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-size: 4rem;
+  word-spacing: 1rem;
+  gap: 1rem;
+  margin: 1rem;
+  margin-bottom: 0;
+}
+.section4 .it2 {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+
+  width: 98%;
+}
+
+.section4 .it2 div {
+  flex: 1;
+  height: auto;
+  color: rgb(233, 227, 227);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: lighter;
+  padding: 4rem;
+  padding-right: 8rem;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: flex-start;
+}
+
+.section4 .it2 div h4 {
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  color: rgb(247, 243, 243);
+  margin-left: 0%;
+  width: 19rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.section4 .it2 div hr {
+  /* color:rgb(77, 77, 77); */
+  border: 0.02rem solid rgb(5, 14, 17);
+  width: 45%;
+  text-align: right;
+  margin-left: 35%;
+}
+
+.section4 .it2 div p {
+  width: 100%;
+  text-align: right;
+  flex-wrap: wrap;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
+  color: rgb(223, 222, 222);
+  font-size: 1.15rem;
+  margin-left: 1rem;
+}
+
+.section4 .it3 {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  flex-wrap: nowrap;
+  padding-bottom: 3rem;
+
+  width: 98%;
+}
+
+.it3 > div {
+  width: 33%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 2rem;
+  padding-right: 0;
+  gap: 1rem;
+}
+
+.it3 div .circle {
+  border-radius: 50%;
+  border: 0.087rem solid rgb(255, 0, 0);
+  width: 4rem;
+  width: 30vh;
+  color: rgb(170, 16, 16);
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+
+  height: 7.5rem;
+  flex: 1.5;
+}
+
+.it3 div p {
+  flex: 3;
+  font-size: 1.1rem;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  color: wheat;
+}
+
+.section4 hr {
+  width: 98%;
+  border-top: 0;
+  border-color: rgb(46, 46, 46);
+  /* border-bottom:0.03 solid rgb(53, 52, 52); */
+}
+
+.it1 span:after {
+  content: "?";
+  color: rgb(173, 11, 11);
+}
+
+/* End of SECTION 4 */
+
+.section5 {
+  width: 100%;
+  height: auto;
+  background-color: rgb(168, 21, 46);
+  display: flex;
+  flex-direction: column;
+}
+
+.section5 .s5_head {
+  flex: 100%;
+  padding: 3rem;
+  font-size: 4rem;
+  color: wheat;
+  align-items: flex-start;
+  font-family: "Raleway", sans-serif;
+}
+
+/* ENd of SECTION 5 ends here */
+
+/* CONTACTS SECTION begins here */
+
+.contact_section {
+  width: 100%;
+  height: auto;
+  background-color: rgb(27, 27, 27);
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_section .it1 {
+  flex: 100%;
+  padding: 3rem;
+  font-size: 4rem;
+  color: wheat;
+  font-family: "Raleway", sans-serif;
+}
+.contact_section .it2 {
+  flex: 100%;
+  padding: 0 3rem;
+  font-size: 1.5rem;
+  color: rgb(156, 156, 156);
+  align-items: flex-start;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact_section hr {
+  width: 95%;
+  height: 2rem;
+  padding: 0 1rem;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: rgb(73, 71, 71);
+  border-bottom: 0.03 solid rgb(51, 51, 51);
+}
+
+.contact_section .it3 {
+  flex: 100%;
+  padding: 0 3rem;
+
+  color: rgb(156, 156, 156);
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact_section .it3 div {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  flex: 2;
+
+  margin: 1.5rem;
+}
+
+.contact_section .it3 .box {
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact_section .it3 .box div {
+  flex: 1;
+  height: 10rem;
+  margin-top: 0;
+  flex-wrap: wrap;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  justify-content: right;
+  align-content: right;
+  justify-items: right;
+}
+
+.contact_section .it3 .box div p {
+  margin: 0;
+  width: 100%;
+  text-align: right;
+  justify-content: right;
+  align-content: right;
+  flex-wrap: wrap;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
+  color: bisque;
+  font-size: 1.15rem;
+  margin-left: 1rem;
+}
+
+.contact_section .it3 .box div p:first-child {
+  font-weight: normal;
+  color: bisque;
+}
+
+/* End of CONTACT_SECTION */
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1518px) {
+  .section2 {
+    width: auto;
+    flex-direction: column;
+  }
+
+  .section2 .c2 {
+    flex: 2.2;
+    color: rgb(156, 150, 150);
+    font-size: 1.1rem;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    font-family: "Montserrat", sans-serif;
+    padding: 4rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .c2 p {
+    width: 65%;
+    text-align: right;
+    margin-left: 35%;
+    flex-wrap: wrap;
+  }
+
+  .section2 .c1 {
+    font-size: 3rem;
+  }
+
+  .section3 {
+    flex-direction: column;
+  }
+
+  .section3 .s3_item1 p {
+    font-size: 3.5rem;
+    writing-mode: horizontal-tb;
+    transform: rotate(-0deg);
+    width: 60rem;
+    margin: 2rem 0;
+    padding: 2.5rem;
+  }
+
+  .section4 .it2 {
+    flex-direction: column;
+  }
+  .section4 .it2 div {
+    padding-bottom: 0;
+    padding-top: 1.2rem;
+  }
+  .section4 .it3 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact_section .it3 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact_section .it3 > div {
+    width: 100%;
+    /* justify-content: justify; */
+  }
+
+  .contact_section .it3 .box {
+    margin: 1rem 0;
+    width: 50%;
+    display: none;
+  }
+}
+
+/* WHen max-width is ledd than 800px */
+
+@media (max-width: 1000px) {
+  .navbar .icons {
+    justify-content: center;
+    padding-left: 3rem;
+  }
+  .icons .hire {
+    background-color: rgb(60, 13, 104);
+  }
+
+  .section1_content .item1 #it1 {
+    font-size: 3rem;
+    flex: 100%;
+  }
+  .section1_content .item1 #it2 {
+    flex: 100%;
+    width: 100%;
+    padding-right: 1rem;
+  }
+
+  #ir,
+  #prod,
+  #car {
+    display: none;
+  }
+
+  .section3 .s3_item2 {
+    /* width:70%; */
+    display: flex;
+    flex-direction: column;
+  }
+  .section3 .s3_item2 .de3 {
+    order: 4;
+  }
+  .section3 .s3_item2 .de4 {
+    order: 3;
+  }
+}
+
+
+/* End of Media Queries */
