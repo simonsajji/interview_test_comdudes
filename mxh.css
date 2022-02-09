@@ -829,6 +829,6 @@ sup {
 /* End of Media Queries */
 
 .section1, .section2, .section3, .section4 .contact_section{
-  overflow-x: hidden;
+  overflow-x: flex;
   overflow-y:scroll;
 }
