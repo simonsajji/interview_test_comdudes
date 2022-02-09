@@ -2,7 +2,6 @@
 
 * {
   box-sizing: border-box;
-  
 }
 html {
   scroll-behavior: smooth;
@@ -11,7 +10,7 @@ body {
   margin: 0;
   border: 0;
   padding: 0;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   background-color: black;
   overflow-x: hidden;
@@ -44,7 +43,7 @@ body {
   background: url("./images/bgg_fin.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 100vw;
   height: 60rem;
   display: flex;
   flex-direction: column;
@@ -229,7 +228,7 @@ sup {
 
 .section2 {
   background-color: black;
-  width: 100%;
+  width: 100vw;
 
   height: auto;
   display: flex;
@@ -304,7 +303,7 @@ sup {
 
 .section3 {
   background-color: rgba(64, 153, 255, 0.68);
-  width: 100%;
+  width: 100vw;
   height: 50rem;
   height: auto;
   display: flex;
@@ -456,7 +455,7 @@ sup {
 
 .section4 {
   background-color: black;
-  width: 100%;
+  width: 100vw;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -617,7 +616,7 @@ sup {
 /* CONTACTS SECTION begins here */
 
 .contact_section {
-  width: 100%;
+  width: 100vw;
   height: auto;
   background-color: rgb(27, 27, 27);
   display: flex;
@@ -828,3 +827,7 @@ sup {
 
 
 /* End of Media Queries */
+
+.section1, .section2, .section3, .section4 .contact_section{
+  overflow-x: hidden;
+}
