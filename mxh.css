@@ -13,7 +13,7 @@ body {
   width: 100vw;
   height: 100%;
   background-color: black;
-  overflow-x: hidden;
+  overflow-x: flex;
   position:absolute;
 }
 
