@@ -823,12 +823,18 @@ sup {
   .section3 .s3_item2 .de4 {
     order: 3;
   }
+  
+  .section1, .section2, .section3, .section4 .contact_section{
+    overflow-x: flex;
+    overflow-y: scroll;
+    width:100vw;
+    
+    
+    
+  }
 }
 
 
 /* End of Media Queries */
 
-.section1, .section2, .section3, .section4 .contact_section{
-  overflow-x: flex;
-  overflow-y:scroll;
-}
+
